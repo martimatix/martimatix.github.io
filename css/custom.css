@@ -28,24 +28,6 @@ h1 {
   vertical-align: middle;
 }
 
-.scroll_down {
-  color: white;
-  letter-spacing: 1em;
-  text-transform: uppercase;
-  position: absolute;
-  bottom: 1em;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-duration: 3s;
-  -moz-animation-delay: 2s;
-  -moz-animation-iteration-count: infinite;
-}
-
 .section {
   text-align:center;
   position: relative;
@@ -79,6 +61,57 @@ h1 {
 
 .description {
   margin-top: 1em;
+}
+
+.white {
+  color: white;
+}
+
+.white a:link {
+    color: #00FF00;
+}
+
+/* visited link */
+.white a:visited {
+    color: #FF00FF;
+}
+
+/* mouse over link */
+.white  a:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+.white a:active {
+    color: cyan;
+}
+
+#contact_info {
+  margin: 0 auto;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.contact_info {
+  text-align: left;
+}
+
+.authorship {
+  font-family: courier;
+  font-size: 1em;
+  color: grey;
+  position: absolute;
+  bottom: 0em;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 2s;
+  -moz-animation-iteration-count: infinite;
 }
 
 @media (min-width: 0px) and (max-width: 660px) {
