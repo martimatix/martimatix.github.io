@@ -8,9 +8,12 @@
   vertical-align: middle;
 }
 
-.title {
+h1 {
   font-family: 'Alfa Slab One', cursive;
-  font-size: 0.7em;
+  font-size: 4em;
+}
+
+.title {
   margin-left: 2em;
   margin-right: 2em;
   display: inline-block;
@@ -59,6 +62,11 @@
 }
 #footer{
   bottom:0px;
+}
+
+.screenshot {
+  margin-top: 2em;
+  height: 340px;
 }
 
 @media (min-width: 0px) and (max-width: 660px) {
