@@ -86,37 +86,30 @@ h1 {
     color: cyan;
 }
 
-#contact_info {
+#contact_info, #bio {
   margin: 0 auto;
   margin-top: 1em;
   display: inline-block;
 }
 
-.contact_info {
+.contact_info, .bio {
   text-align: left;
 }
 
-.authorship {
-  font-family: courier;
-  font-size: 1em;
-  color: grey;
-  position: absolute;
-  bottom: 0em;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-duration: 3s;
-  -moz-animation-delay: 2s;
-  -moz-animation-iteration-count: infinite;
+.bio {
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 @media (min-width: 0px) and (max-width: 660px) {
   #header, #footer, .scroll_down {
     visibility: hidden;
+  }
+
+  #section2 h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 2em;
   }
 
   .slide h1 {
@@ -125,6 +118,12 @@ h1 {
 
   .screenshot {
     height: 170px;
+  }
+
+  .bio {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.5em;
   }
 
 }
@@ -136,5 +135,9 @@ h1 {
 
   .screenshot {
     height: 100px;
+  }
+
+  .bio {
+    font-size: 1.2em;
   }
 }
