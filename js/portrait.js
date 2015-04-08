@@ -258,7 +258,10 @@
          'strokeWidth': 5,
          'speedMultiplier': 0.2,
          'responsive': true,
-         'reverse': true
+         'reverse': true,
+         'onComplete': function (){
+            $( ".scroll_down" ).append($('<p/>').html('<span class="icon-circle-down"></span>'));
+         }
      })
 
      $('#portrait').lazylinepainter('paint');
