@@ -33,6 +33,22 @@ h1 {
   position: relative;
 }
 
+.scroll_down {
+  color: white;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 1em;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: infinite;
+}
+
 /* Fixed header and footer.
 * --------------------------------------- */
 #header, #footer{
